@@ -59,8 +59,7 @@ ul {
    justify-content: space-between;
    align-items: center;
    gap: 344px;
-   height: 80px;
-   padding: 25px 0;
+   
 
 }
 
@@ -90,6 +89,9 @@ ul {
     line-height: 1.2;
     letter-spacing: 0.03em;
     color: var(--accent-color);
+
+    display: block;
+    padding: 25px 0;
 }
 
 .logo-studio {
@@ -107,6 +109,9 @@ ul {
     text-decoration: none;
     letter-spacing: 0.02em;
     color: var(--head-color);
+
+    display: block;
+    padding: 32px 0;
 
 }
 
@@ -126,6 +131,9 @@ ul {
     text-decoration: none;
     letter-spacing: 0.02em;
     color: var(--primary-color);
+
+    display: block;
+    padding: 32px 0;
 }
 
 .contact-link:hover,
@@ -135,12 +143,11 @@ ul {
 
 .hero {
     background-color: var(--dark-color);
-    
+    padding: 200px 0;
 }
 
 .hero-container {
     align-items: center;
-    padding: 200px 0;
     
 }
 
@@ -233,10 +240,13 @@ img {
     height: auto;
 }
 
+.act-section {
+    padding: 0 0 94px 0;
+}
+
 .action-container {
     display: flex;
     gap: 30px;
-    padding-top: 94px 0;
 
 }
 
@@ -272,7 +282,7 @@ img {
 }
 
 .team-content {
-    padding: 30px 60px;
+    padding: 30px 0;
     border: 1px solid transparent;
 }
 
@@ -298,17 +308,19 @@ img {
 
 .footer {
     background-color: var(--dark-color);
+    padding: 60px 0;
 }
 
 .footer-container {
     display: inline-block;
-    padding: 60px 0;
-    
+
 }
 
+
 .logo-link {
-    display: inline-block;
+    display: block;
     margin-bottom: 20px;
+    padding: 0;
 }
 
 .logo-studio-footer {
@@ -323,7 +335,6 @@ img {
     letter-spacing: 0.03em;
     text-decoration: none;
     color: var(--inversion-color);
-    
 
 }
 
